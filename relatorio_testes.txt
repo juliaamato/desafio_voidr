@@ -1,0 +1,20 @@
+============================= test session starts =============================
+platform win32 -- Python 3.10.11, pytest-8.3.5, pluggy-1.6.0 -- C:\Users\julia\Desktop\Desafio Voidr\voidr-env\Scripts\python.exe
+cachedir: .pytest_cache
+rootdir: C:\Users\julia\Desktop\Desafio Voidr
+plugins: asyncio-0.26.0
+asyncio: mode=strict, asyncio_default_fixture_loop_scope=None, asyncio_default_test_loop_scope=function
+collecting ... collected 10 items
+
+tests/test_cart.py::test_item_correto_no_carrinho PASSED                 [ 10%]
+tests/test_cart.py::test_remover_item_do_carrinho_via_cart PASSED        [ 20%]
+tests/test_cart.py::test_adicionar_dois_itens_ao_carrinho PASSED         [ 30%]
+tests/test_checkout.py::test_finalizar_compra_com_sucesso PASSED         [ 40%]
+tests/test_inventory.py::test_adicionar_item_ao_carrinho PASSED          [ 50%]
+tests/test_inventory.py::test_remover_item_do_carrinho PASSED            [ 60%]
+tests/test_inventory.py::test_ordenar_por_preco_crescente PASSED         [ 70%]
+tests/test_login.py::test_login_sucesso PASSED                           [ 80%]
+tests/test_login.py::test_login_falha_usuario_invalido PASSED            [ 90%]
+tests/test_login.py::test_login_falha_senha_invalida PASSED              [100%]
+
+============================= 10 passed in 36.40s =============================
